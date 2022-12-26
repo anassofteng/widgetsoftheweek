@@ -22,7 +22,7 @@ class _ConnectivityCheckState extends State<ConnectivityCheck> {
         builder: (_, snapshot) {
           return InternetConnection(
             snapshot: snapshot,
-            widget: Text('Connected'),
+            widget: Text('yes Connected'),
           );
         },
       ),
